@@ -15,14 +15,20 @@ body{
 }
 .logo{
     width: 120px;
-    color: white;
+    background-color: white;
+    border-radius: 70%;
 }
 .footerLink{
     color: white;
+}
+
+a{
     text-decoration: none;
+    color: white;
 }
 a:hover{
-    color: #FF0000;
+    color: white;
+    text-decoration: none;
 }
 .main{
     /* display: flex; */
@@ -59,9 +65,3 @@ a:hover{
     padding: 10px;
 }
 
-/* CSS for the content */
-.content {
-    width: 80%; /* Adjust the width as needed */
-    float: left;
-    background-color: #f4f4f4;
-}
