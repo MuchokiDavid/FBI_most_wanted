@@ -1,1 +1,67 @@
 @import url("bootstrap.css");
+body{
+    background-color: #fff;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+}
+.header, .footer{
+    background-color: #003366;
+    color: white;
+    padding-left: 50px;
+}
+.footer{
+    height: 100px;
+    padding-top: 20px;
+}
+.logo{
+    width: 120px;
+    color: white;
+}
+.footerLink{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #FF0000;
+}
+.main{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: fit-content;
+    margin: 0;
+    position: relative;
+}
+.card {
+    width: 90%;
+    max-width: 500px;
+    color: #fff;
+    margin: 10px auto 0;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+#fugitiveMenu {
+    width: 20%; /* Adjust the width as needed */
+    float: left;
+    background-color: #003366;
+    color: #fff;
+}
+
+#fugitiveMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#fugitiveMenu li {
+    padding: 10px;
+}
+
+/* CSS for the content */
+.content {
+    width: 80%; /* Adjust the width as needed */
+    float: left;
+    background-color: #f4f4f4;
+}

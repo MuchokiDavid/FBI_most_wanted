@@ -7,7 +7,51 @@
     <title>FBI Wanted Criminals</title>
 </head>
 <body>
+    <header class="header">
+        <a href="index.html"><img src="/images/FBI_SHIELD-logo.png" alt="fbi_logo" class="logo"></a>
+    </header>
+    <div class="main">
+        <div id="searchPanel">
+            <!-- hold search and filter panels -->
+            <div class="card">
+                <div class="search">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <form class="d-flex" role="search">
+                              <input class="form-control me-2" id="search-input" type="search" placeholder="Search" aria-label="Search" style="width: 500px;">
+                              <button class="btn btn-outline-success" id="search-button" type="submit">Search</button>
+                            </form>
+                          </div>
+                        </div>
+                    </nav>
+                </div>  
+            </div>      
+        </div>
+        <h2>FBI Most Wanted</h2>
+        <div id="fugitiveMenu">
+            <!-- hold fugitive menu -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="row" >
+            <div class="col-10 border" >
+                <div class="row" id="items" style="align-items: center;">
+
+                </div>
+            </div>
+        </div>
+    </div>
     
+
+    <footer class="footer">
+        <a href="index.html" class="footerLink">Homepage</a><br><br>
+        Copyright David Muchoki - 2023
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="/js/index.js"></script>
 </body>
