@@ -54,6 +54,7 @@ a:hover{
     float: left;
     background-color: #003366;
     color: #fff;
+    padding-top: 0px;
 }
 
 #fugitiveMenu ul {
@@ -63,5 +64,20 @@ a:hover{
 
 #fugitiveMenu li {
     padding: 10px;
+}
+.viewMore{
+    background-color: #003366; 
+    color: white; 
+    border-radius: 10%;
+    height: 35px;
+}
+.viewMore :hover{
+    border-radius: 1px;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+.lists{
+    color: white;
 }
 
