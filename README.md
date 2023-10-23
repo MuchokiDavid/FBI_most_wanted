@@ -23,47 +23,58 @@ This project aims to utilize the FBI's Wanted Criminals API to create a user-fri
 
 ### Prerequisites
 
-- [List any prerequisites or requirements, e.g., a web browser, code editor, etc.]
+Before you get started, ensure that you have the following installed on your system:
+
+- Node js
+- Git (for version control)
 
 ### Installation
 
-1. [Instructions on how to install or set up the project.]
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dmmuchoki7/phase-1-project.git
+   ```
+
+2. Open project in code editor. You can go live to view the user interface.
 
 ## Usage
+This project is an opportunity for me to gain hands-on experience in working with APIs, data manipulation, and web development. By using the API, I plan to create a web application that allows users to access information about wanted criminals in a user-friendly and informative manner.
 
-[Provide usage instructions for your web application. Explain how to access the application and interact with its features.]
 
 ## Project Timeline
 
-The project is expected to be completed over a course of [insert duration], with key milestones as follows:
+The project is expected to be completed over a course of 4 days, with key milestones as follows:
 
-- Weeks 1-2: Project planning and API research
-- Weeks 3-4: Front-end development and API integration
-- Weeks 5-6: UI/UX design and user testing
-- Weeks 7-8: Documentation and final project presentation
+- Day 1: Project planning and API research
+- Day 2: Front-end development and API integration
+- Day 3: UI/UX design and user testing
+- Day 4: Documentation and final project presentation
 
 ## Resources
 
 - Access to the FBI's Wanted Criminals API
 - Development tools (IDE, text editors, etc.)
-- Hosting and domain (if applicable)
+- Hosting
 
 ## Contributing
 
-[Explain how others can contribute to the project if it's open for contributions.]
+Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback and improvements are highly appreciated.
 
 ## License
 
-[Specify the project's license if applicable.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-[You can acknowledge any individuals, libraries, or resources that have helped you with the project.]
+I would like to acknowledge Moringa School for the opportunity to create this project and assess wheather the project meets the required expectations. This is achieved by provision of a Technical Mentor Mr.Caleb who has been there in guiding us theough the project. I would also like to acknowledge my parents for giving a chance to enroll at Moringa and taking care of my financial and psycological needs no make eerything possible.
 
 ## Contact
 
-[Provide your contact information if you want to be reached for questions or feedback.]
+Reach me out via:  E-mail: dmmuchoki7@gmail.com Phone Number: 0723018212
+
+## Author
+David Munuhe Muchoki
 
 ---
 
-[Add any additional sections or information that is relevant to your project.]
