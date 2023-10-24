@@ -65,11 +65,12 @@ a:hover{
 #fugitiveMenu li {
     padding: 10px;
 }
-.viewMore{
-    background-color: #003366; 
-    color: white; 
+.backHome,.viewMore{
+    background-color: white; 
+    /*color: white;*/ 
     border-radius: 10%;
     height: 35px;
+    border-color: #003366;
 }
 .viewMore :hover{
     border-radius: 1px;
