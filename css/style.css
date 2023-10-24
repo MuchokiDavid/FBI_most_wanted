@@ -80,4 +80,8 @@ a:hover{
 .lists{
     color: white;
 }
+.detailsDiv{
+    height: 100vh;
+    width: 50%;
+}
 
