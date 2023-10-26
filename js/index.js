@@ -81,8 +81,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                                     <p>Description: ${data.items[index].description}</p>
                                     <p>Remarks: ${data.items[index].remarks}</p>
                                     <p>Reward: ${data.items[index].reward_text}</p>
-                                    
-                                    
+                                                                        
                                 <a href="index.html"><button class= "backHome" >Back</button></a>
                             </div>
                         </div>
@@ -160,8 +159,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
         .then(data =>{
             searchBtn.addEventListener("click", (event) => {
                 event.preventDefault(); // Prevent the form from submitting
+                const searchQuery = searchBox.value.toLowerCase(); // Convert the search query to lowercase for case-insensitive search
                 for (let index = 0; index < data.items.length; index++) {
-                        if(searchBox.value==data.items[index].title){
+                    const itemName = data.items[index].title.toLowerCase();
+                        if(itemName.includes(searchQuery)){
                         const outerCard= document.querySelector("#outerDiv")
                         //create card to display criminals details(
                         const outerDiv= document.querySelector("#outerouterdiv")
