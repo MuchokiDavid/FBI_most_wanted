@@ -1,7 +1,7 @@
 @import url("bootstrap.css");
 body{
     background-color: #fff;
-    height: 100vh; /* 100% of the viewport height */
+    height: fit-content; /* 100% of the viewport height */
     margin: 0;
 }
 .header, .footer{
@@ -10,8 +10,8 @@ body{
     padding-left: 50px;
 }
 .footer{
-    height: 100px;
-    padding-top: 20px;
+    height: 80px;
+    /* padding-top: 20px; */
 }
 .logo{
     width: 120px;
@@ -85,4 +85,9 @@ a:hover{
     height: 100vh;
     width: 50%;
 }
-
+.card-body{
+    width: fit-content;
+}
+.body-card{
+    width: 70%;
+}
